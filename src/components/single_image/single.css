@@ -1,0 +1,95 @@
+
+.card{
+    width: 30%;
+    height: 380px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 300px;
+}
+.img img{
+    width: 100%;
+    height: 300px;
+}
+.imgInfo{
+    width: 100%;
+    height: 80px;
+    background-color: #141414;
+    display: flex;
+}
+.creator{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.creatorImg{
+    height: 60px;
+    width: 30%;
+    border-radius: 50%;
+}
+.creatorImg img{
+    height: 60px;
+    width: 100%;
+    border-radius: 50%;
+}
+.creatorInfo{
+    height: 60px;
+    width: 60%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.creatorInfo p{
+    font-size: 12px;
+}
+
+.likes{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -10px;
+}
+.likeCount{
+    height: 60px;
+    width: 50%;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.likeIcon{
+    height: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likeIcon i{
+    font-size: 28px;
+    color: #ffffff;
+}
+.count{
+    height: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+}
+.count span{
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
